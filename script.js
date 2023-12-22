@@ -1,5 +1,4 @@
 let wordsList = ["word", "year"];
-
 let foundWord = document.getElementById('foundWord');
 
 function searchWord() {
@@ -32,7 +31,7 @@ function showSearchedWord(element) {
                 </tbody>
             </table>
         </div>
-    `
+    `;
     foundWord.style.display = "block";
 }
 
